@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2020-11-10 06:46:48
+/* Smarty version 3.1.29, created on 2020-11-10 07:09:57
   from "C:\UniServerZ\www\mini_shop\templates\index.html" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_5faa3758f22fe9_07992072',
+  'unifunc' => 'content_5faa3cc51093d6_97106909',
   'file_dependency' => 
   array (
     '0f462a56d1a4529add89f41e20d9005077738b13' => 
     array (
       0 => 'C:\\UniServerZ\\www\\mini_shop\\templates\\index.html',
-      1 => 1604946148,
+      1 => 1604992193,
       2 => 'file',
     ),
   ),
@@ -28,13 +28,12 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
     'file:index_side.html' => 1,
   ),
 ),false)) {
-function content_5faa3758f22fe9_07992072 ($_smarty_tpl) {
+function content_5faa3cc51093d6_97106909 ($_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="zh-Hant">
   <head>
-    <title><?php echo $_smarty_tpl->tpl_vars['shop_name']->value;?>
-</title>
+    <title>BT21 shop</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
