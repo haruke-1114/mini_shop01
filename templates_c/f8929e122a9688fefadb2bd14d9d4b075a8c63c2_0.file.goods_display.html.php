@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2020-11-10 06:47:18
+/* Smarty version 3.1.29, created on 2020-11-10 07:53:12
   from "C:\UniServerZ\www\mini_shop\templates\goods_display.html" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_5faa377664b5e2_75470341',
+  'unifunc' => 'content_5faa46e833f877_49250530',
   'file_dependency' => 
   array (
     'f8929e122a9688fefadb2bd14d9d4b075a8c63c2' => 
     array (
       0 => 'C:\\UniServerZ\\www\\mini_shop\\templates\\goods_display.html',
-      1 => 1604988568,
+      1 => 1604994783,
       2 => 'file',
     ),
   ),
@@ -19,11 +19,11 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_5faa377664b5e2_75470341 ($_smarty_tpl) {
+function content_5faa46e833f877_49250530 ($_smarty_tpl) {
 ?>
 <div class="row">
   <div class="col-md-6">
-    <img src="<?php echo $_smarty_tpl->tpl_vars['goods']->value['pic'];?>
+    <img id="demo" src="<?php echo $_smarty_tpl->tpl_vars['goods']->value['pic'];?>
 " alt="<?php echo $_smarty_tpl->tpl_vars['goods']->value['goods_title'];?>
 " class="img-thumbnail">
   </div>

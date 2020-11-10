@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2020-11-10 07:22:59
+/* Smarty version 3.1.29, created on 2020-11-10 08:00:40
   from "C:\UniServerZ\www\mini_shop\templates\index.html" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_5faa3fd37a5225_96704855',
+  'unifunc' => 'content_5faa48a8d78703_73328346',
   'file_dependency' => 
   array (
     '0f462a56d1a4529add89f41e20d9005077738b13' => 
     array (
       0 => 'C:\\UniServerZ\\www\\mini_shop\\templates\\index.html',
-      1 => 1604992247,
+      1 => 1604995189,
       2 => 'file',
     ),
   ),
@@ -28,7 +28,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
     'file:index_side.html' => 1,
   ),
 ),false)) {
-function content_5faa3fd37a5225_96704855 ($_smarty_tpl) {
+function content_5faa48a8d78703_73328346 ($_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="zh-Hant">
@@ -61,7 +61,7 @@ function content_5faa3fd37a5225_96704855 ($_smarty_tpl) {
     <div class="container">
       <div id="shop_head">
         <a href="index.php">
-          <img src="images/title.jpg" alt="<?php echo $_smarty_tpl->tpl_vars['shop_name']->value;?>
+          <img id='titleImg' src="images/title.jpg" alt="<?php echo $_smarty_tpl->tpl_vars['shop_name']->value;?>
 " class="img-responsive">
         </a>
       </div>
