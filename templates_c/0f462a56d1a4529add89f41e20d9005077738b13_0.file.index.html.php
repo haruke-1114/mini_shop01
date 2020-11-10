@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2020-11-10 07:09:57
+/* Smarty version 3.1.29, created on 2020-11-10 07:22:59
   from "C:\UniServerZ\www\mini_shop\templates\index.html" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_5faa3cc51093d6_97106909',
+  'unifunc' => 'content_5faa3fd37a5225_96704855',
   'file_dependency' => 
   array (
     '0f462a56d1a4529add89f41e20d9005077738b13' => 
     array (
       0 => 'C:\\UniServerZ\\www\\mini_shop\\templates\\index.html',
-      1 => 1604992193,
+      1 => 1604992247,
       2 => 'file',
     ),
   ),
@@ -28,7 +28,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
     'file:index_side.html' => 1,
   ),
 ),false)) {
-function content_5faa3cc51093d6_97106909 ($_smarty_tpl) {
+function content_5faa3fd37a5225_96704855 ($_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="zh-Hant">
@@ -117,7 +117,7 @@ function content_5faa3cc51093d6_97106909 ($_smarty_tpl) {
         <div>公司名稱 : 野獸國股份有限公司</div>
         <div>服務電話: (02)89532388</div>
         <div>商店地址: 新北市220板橋區三民路1段210號12樓</div>
-        <div>版權所有 copyright © 2016 tad0616.net. All Rights Reserved. </div>
+        <div>版權所有 copyright © 2020 bt21.net.</div>
       </div>
     </div>
   </body>

@@ -1,5 +1,5 @@
 <div class="alert alert-success">
-  {$login_user.user_name}您好！歡迎光臨{$shop_name}
+  {$login_user.user_name}您好！歡迎光臨BT21 shop
 </div>
 <a href="index.php" class="btn btn-block btn-primary">回首頁</a>
 <a href="user.php?op=user_display&user_sn={$login_user.user_sn}" class="btn btn-block btn-info">我的帳號</a>
@@ -9,4 +9,5 @@
 {if $isAdmin}
     <a href="tool.php?op=goods_form" class="btn btn-block btn-success">發布商品</a>
 {/if}
+
 <a href="user.php?op=user_logout" class="btn btn-block btn-danger">登出</a>
