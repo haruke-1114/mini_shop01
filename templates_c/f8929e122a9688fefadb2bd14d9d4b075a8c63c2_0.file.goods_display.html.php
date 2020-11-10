@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2020-11-10 07:53:12
+/* Smarty version 3.1.29, created on 2020-11-10 08:10:14
   from "C:\UniServerZ\www\mini_shop\templates\goods_display.html" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_5faa46e833f877_49250530',
+  'unifunc' => 'content_5faa4ae68bed08_67268007',
   'file_dependency' => 
   array (
     'f8929e122a9688fefadb2bd14d9d4b075a8c63c2' => 
     array (
       0 => 'C:\\UniServerZ\\www\\mini_shop\\templates\\goods_display.html',
-      1 => 1604994783,
+      1 => 1604995810,
       2 => 'file',
     ),
   ),
@@ -19,7 +19,7 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_5faa46e833f877_49250530 ($_smarty_tpl) {
+function content_5faa4ae68bed08_67268007 ($_smarty_tpl) {
 ?>
 <div class="row">
   <div class="col-md-6">
@@ -56,6 +56,7 @@ function content_5faa46e833f877_49250530 ($_smarty_tpl) {
   <li role="presentation"><a href="#service" aria-controls="service" role="tab" data-toggle="tab">付款方式</a></li>
   <li role="presentation"><a href="#note" aria-controls="note" role="tab" data-toggle="tab">退換或須知</a></li>
   <li role="presentation"><a href="#other" aria-controls="other" role="tab" data-toggle="tab">運送方式</a></li>
+  <li role="presentation"><a href="#talk" aria-controls="talk" role="tab" data-toggle="tab">買家評論</a></li>
 </ul>
 
 <div class="tab-content">
@@ -100,6 +101,22 @@ function content_5faa46e833f877_49250530 ($_smarty_tpl) {
       <li><b>LINE Pay</b></li>
       付款不需輸入信用卡資訊及3D驗證，僅需輸入專屬密碼即可使用信用卡進行付款，節省您的付款時間。<br><br>
     </ul>
+  </div>
+  <div role="tabpanel" class="tab-pane active" id="goods">
+    <h3 style='background-color: cadetblue; color: antiquewhite; width: 100px;'>商品介紹</h3>
+    <p><?php echo $_smarty_tpl->tpl_vars['goods']->value['goods_content'];?>
+</p>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="talk">
+    <h3 style='background-color: cadetblue; color: antiquewhite; width: 100px;'>買家評論</h3>
+    <ol>
+      <li>非常喜歡</li>
+      <li>超愛</li>
+      <li>超棒!!</li>
+    </ol><br>
+    <p>新增評論</p>
+    <input></input>
+    
   </div>
 </div>
 <style>

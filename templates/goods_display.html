@@ -24,6 +24,7 @@
   <li role="presentation"><a href="#service" aria-controls="service" role="tab" data-toggle="tab">付款方式</a></li>
   <li role="presentation"><a href="#note" aria-controls="note" role="tab" data-toggle="tab">退換或須知</a></li>
   <li role="presentation"><a href="#other" aria-controls="other" role="tab" data-toggle="tab">運送方式</a></li>
+  <li role="presentation"><a href="#talk" aria-controls="talk" role="tab" data-toggle="tab">買家評論</a></li>
 </ul>
 
 <div class="tab-content">
@@ -67,6 +68,21 @@
       <li><b>LINE Pay</b></li>
       付款不需輸入信用卡資訊及3D驗證，僅需輸入專屬密碼即可使用信用卡進行付款，節省您的付款時間。<br><br>
     </ul>
+  </div>
+  <div role="tabpanel" class="tab-pane active" id="goods">
+    <h3 style='background-color: cadetblue; color: antiquewhite; width: 100px;'>商品介紹</h3>
+    <p>{$goods.goods_content}</p>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="talk">
+    <h3 style='background-color: cadetblue; color: antiquewhite; width: 100px;'>買家評論</h3>
+    <ol>
+      <li>非常喜歡</li>
+      <li>超愛</li>
+      <li>超棒!!</li>
+    </ol><br>
+    <p>新增評論</p>
+    <input></input>
+    
   </div>
 </div>
 <style>
