@@ -1,0 +1,32 @@
+body {
+  background-image: url("images/01.jpg");
+  background-size: 100% 100%;
+  /* background-repeat: no-repeat; */
+  font-family: 微軟正黑體;
+}
+
+.container {
+  background-color: white;
+}
+
+#shop_head {
+  margin-bottom: 15px;
+}
+
+#shop_main {
+  min-height: 200px;
+}
+
+#shop_foot {
+  background-color: rgb(51, 61, 101);
+  color: #fff;
+  padding: 30px;
+  line-height: 1.8;
+  margin: 15px 0px;
+}
+
+.good_sn_bg_color{
+  background-color: yellowgreen;
+  color: green;
+
+}
